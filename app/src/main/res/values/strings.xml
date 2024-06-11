@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">CommUNIty</string>
+    <string name="events_feed">Лента</string>
+    <string name="choice">Мои мероприятия</string>
+    <string name="calendar">Календарь</string>
+    <string name="organizations">Организации</string>
+    <string name="lc">Личный кабинет</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="red">Редактирование профиля:</string>
+    <string name="inter">Подписки:</string>
+    <string name="add">Добавить мероприятие</string>
+    <string name="reg">Зарегистрироваться</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string-array name="universities">
+        <item>СГУ им. Н.Г. Чернышевского</item>
+        <item>СГТУ им. Ю.А. Гагарина</item>
+        <item>СГМУ им. В.И. Разумовского</item>
+    </string-array>
+
+    <string-array name="ssu_comp">
+        <item>ЗНБ СГУ</item>
+        <item>Студенческий спортивный клуб СГУ</item>
+        <item>Институт Физической Культуры и Спорта СГУ</item>
+        <item>Саратовский университет | СГУ</item>
+        <item>Институт физики СГУ</item>
+        <item>Институт химии СГУ</item>
+        <item>Геологический колледж СГУ</item>
+        <item>Экономический факультет СГУ</item>
+        <item>ИИиМО СГУ</item>
+        <item>Факультет иностранных языков СГУ</item>
+        <item>Географический факультет СГУ</item>
+        <item>Биологический факультет СГУ</item>
+        <item>Институт искусств СГУ</item>
+        <item>Факультет ФМиМТ | СГУ</item>
+        <item>Социологический факультет</item>
+        <item>Институт филологии и журналистики СГУ</item>
+        <item>Факультет ППиСО СГУ</item>
+        <item>Штаб студенческих отрядов СГУ</item>
+        <item>Факультет КНиИТ | СГУ</item>
+    </string-array>
+
+    <string-array name="test_int">
+        <item>Саратовский университет | СГУ</item>
+        <item>Институт физики СГУ</item>
+        <item>Факультет ФМиМТ | СГУ</item>
+        <item>Штаб студенческих отрядов СГУ</item>
+        <item>Факультет КНиИТ | СГУ</item>
+        <item>Студенческий спортивный клуб СГУ</item>
+        <item>Институт Физической Культуры и Спорта СГУ</item>
+    </string-array>
+</resources>

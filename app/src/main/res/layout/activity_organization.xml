@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_bar"
+    tools:context=".Organization">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top"
+        android:layout_width="414dp"
+        android:layout_height="59dp"
+        android:background="@color/bg_bar"
+        app:layout_constraintEnd_toEndOf="@+id/settings_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingClass,MissingConstraints">
+
+        <TextView
+            android:id="@+id/bar_icon"
+            android:layout_width="193dp"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/organizations"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.117"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.454" />
+
+        <Spinner
+            android:id="@+id/uni_choice"
+            android:layout_width="115dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="4dp"
+            android:dropDownWidth="wrap_content"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/bar_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.444" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/floor"
+        android:layout_width="415dp"
+        android:layout_height="76dp"
+        android:background="@color/bg_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageButton
+            android:id="@+id/list_button"
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:background="@color/bg_bar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/calendar_button"
+            app:layout_constraintHorizontal_bias="0.377"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/act_icon_foreground" />
+
+        <ImageButton
+            android:id="@+id/org_button"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/bg_bar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.539"
+            app:layout_constraintStart_toEndOf="@+id/calendar_button"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/org_icon_foreground" />
+
+        <ImageButton
+            android:id="@+id/calendar_button"
+            android:layout_width="60dp"
+            android:layout_height="56dp"
+            android:background="@color/bg_bar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/calendar_icon_foreground" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/settings_profile"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:background="@color/bg_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@mipmap/settings_icon_foreground"
+        tools:srcCompat="@mipmap/settings_icon_foreground" />
+
+    <ListView
+        android:id="@+id/list_org"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/bg_app"
+        app:layout_constraintBottom_toTopOf="@id/floor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

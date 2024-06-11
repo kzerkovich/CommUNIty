@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_app">#8889B9FF</color>
+    <color name="bg_bar">#E4E4F9FF</color>
+    <color name="bg_switch">#884792FF</color>
+</resources>
