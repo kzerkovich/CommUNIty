@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CommUNIty</string>
+    <string name="promo">Акции</string>
+    <string name="event_feed">Лента</string>
+    <string name="calendar">Календарь</string>
+    <string name="organizations">Отделения</string>
+    <string name="profile">Профиль</string>
+    <string name="location_disabled">Геолокация отключена</string>
+    <string name="location_dialog_message">Вы хотите включить GPS?</string>
+    <string name="ok">Да</string>
+    <string name="no">Нет</string>
+    <string name="no_events">Событий нет</string>
+</resources>
