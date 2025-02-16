@@ -62,4 +62,5 @@ dependencies {
 	androidTestImplementation(libs.androidx.espresso.core)
 	implementation(libs.splashscreen)
 	implementation(libs.yandex.map.kit)
+	implementation(libs.material.calendar)
 }
