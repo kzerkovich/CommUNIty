@@ -12,7 +12,6 @@ import com.kzerk.community.databinding.FragmentCalendarBinding
 
 
 class CalendarFragment : Fragment() {
-
 	private lateinit var binding: FragmentCalendarBinding
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
